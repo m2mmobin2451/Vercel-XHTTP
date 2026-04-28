@@ -1,9 +1,8 @@
 {
-  "version": 2,
+  "version": 2,hjei
   "name": "vercel-xhttp-relay",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
 "trailingSlash": false
- "namejs
 }
