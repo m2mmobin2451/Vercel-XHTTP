@@ -1,7 +1,6 @@
-#mueysk
 export const config = { runtime: "edge" };
 
-const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
+const TARGET_BASE = (process.env.m2m || "").replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
   "host",
