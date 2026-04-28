@@ -5,5 +5,4 @@
     { "source": "/(.*)", "destination": "/api/index" }
   ],
   "trailingSlash": false
-#m2m
 }
